@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+/********************Nav*********************/
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #e6e3e3; 
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 100px; 
+    
+}
+
+nav a {
+    text-decoration: none;
+}
+
+img {
+    max-height: 50px; 
+}
+
+/*****************Noticias*****************/
+
+h1 {
+    text-align: center;
+    padding: 50px;
+}
+
+h2 {
+    text-align: center;
+    padding: 20px;
+}
+
+.spiderman img {
+    
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}

@@ -54,8 +54,8 @@ h2 {
     text-align: center;
 }
 
-.spiderman img {
-    max-height: 300px;
+.pelicula img {
+    max-height: 400px;
     padding: 20px;
 }
 
@@ -63,8 +63,23 @@ h3 {
     padding: 20px;
 }
 
+article {
+    font-weight: bold;
+}
 /*****************Footer**************/
 
 footer {
+    background-color:#e6e3e3 ;
     padding: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.redes {
+    font-size: 2rem;
+}
+
+.redes a {
+    margin-right: 20px; 
+    color: black;
 }
